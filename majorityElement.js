@@ -13,6 +13,7 @@ function findMajority (list){
     var maxCount = 0;
     var majorElement = null;
 
+
     list.forEach(value => {
         elementInList[value] = 0;
     })
